@@ -90,7 +90,7 @@ sentencepiece==0.1.91
 shap==0.37.0
 six==1.15.0
 slicer==0.0.7
-smart-open==3.0.0
+smart-open==5.2.1 
 sniffio==1.2.0
 spacy==2.3.5
 spacy-legacy==3.0.8
