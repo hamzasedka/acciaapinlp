@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  nginx:
+    build: ./nginx
+    ports:
+      - "5000:5000"
+    volumes:
+      - static_volume:/home/app/api_nlp/static
+      - media_volume:/home/app/api_nlp/media
+    depends_on:
+      - web
+    restart: "on-failure"
+  web:
+    build: . #build the image for the web service from the dockerfile in parent directory
+    command: sh -c "gunicorn --bind 0.0.0.0:${APP_PORT} wsgi:app"
+    volumes:
+#      - .:/Vtt:rw # map data and files from parent directory in host to microservice directory in docker containe
+      - static_volume:/home/app/api_nlp/static
+      - media_volume:/home/app/api_nlp/media
+    env_file:
+      - .env
+    image: api_nlp
+    expose:
+      - ${APP_PORT}
+    restart: "on-failure"
+volumes:
+  static_volume:
+  media_volume:
+
+
