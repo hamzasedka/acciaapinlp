@@ -27,7 +27,7 @@ Flask-Migrate==2.5.3
 flask-restx==0.2.0
 Flask-SQLAlchemy==2.4.4
 fonttools==4.0.0
-googletrans==4.0.0rc2
+googletrans==3.0.0
 greenlet==0.4.15
 h11==0.8.1
 h2==3.2.0
