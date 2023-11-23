@@ -13,7 +13,7 @@ click==7.1.2
 cloudpickle==1.6.0
 colorama==0.4.4
 confection==0.0.3
-contourpy==0.4.1
+contourpy==1.0.6
 cycler==0.10.0
 cymem==2.0.3
 decorator==4.4.2
