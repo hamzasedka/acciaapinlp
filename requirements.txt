@@ -43,3 +43,4 @@ torch==1.12.1
 typing_extensions==3.7.4
 Werkzeug==0.16.1
 wincertstore==0.2
+spacy==2.3.5
