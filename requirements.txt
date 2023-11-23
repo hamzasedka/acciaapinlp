@@ -67,7 +67,7 @@ pickleshare==0.7.5
 Pillow==8.0.1
 pkgutil-resolve-name==1.0.0
 preshed==3.0.2
-prompt-toolkit==2.0.0
+prompt-toolkit==3.0.41
 pure-eval==0.2.2
 pydantic==1.7.4
 Pygments==2.5.2
