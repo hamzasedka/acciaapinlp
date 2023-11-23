@@ -27,14 +27,14 @@ Flask-Migrate==2.5.3
 flask-restx==0.2.0
 Flask-SQLAlchemy==2.4.4
 fonttools==4.0.0
-googletrans==4.0.0rc1
+googletrans==4.0.0rc2
 greenlet==0.4.15
 h11==0.8.1
 h2==3.2.0
 hpack==3.0.0
 hstspreload==2021.10.1
 httpcore==0.11.1
-httpx==0.18.0
+httpx==0.13.3
 huggingface-hub==0.0.12
 hyperframe==5.2.0
 idna==2.8
