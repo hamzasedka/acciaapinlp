@@ -34,7 +34,7 @@ h2==3.2.0
 hpack==3.0.0
 hstspreload==2021.10.1
 httpcore==0.11.1
-httpx==0.13.3
+httpx==0.18.0
 huggingface-hub==0.0.12
 hyperframe==5.2.0
 idna==2.8
