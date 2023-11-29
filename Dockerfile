@@ -25,5 +25,13 @@ COPY . $MICRO_SERVICE
 #install project requirements
 RUN pip install -r requirements.txt
 
+# where the code lives
+WORKDIR $MICRO_SERVICE
+
+# expose the port that Flask will run on
+EXPOSE 5000
+
+# run entry point
+CMD ["python", "runserver.py"]
 
 
